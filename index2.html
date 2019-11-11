@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<?php
+//Create connection and select DB
+$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+
+if ($db->connect_error) {
+    die("Unable to connect database: " . $db->connect_error);
+}
+?>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <title>NIKE x OFF-WHITE</title>
+</head>
+    
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">"HOME"</a></li>
+            <li><a href="#section2">"ABOUT"</a></li>
+            <li><a href="#section3">"BLAZER"</a></li>
+            <li><a href="#section4">"PRESTO"</a></li>
+            <li><a href="#section5">"JORDAN 1"</a></li>
+            <li><a href="#section6">"FORCE 1"</a></li>
+            <li><a href="#section7">"AIR MAX 97"</a></li>
+            <li><a href="#section8">"HYPERDUNK"</a></li>
+            <li><a href="#section9">"VAPORFLY"</a></li>
+            <li><a href="#section10">"VAPORMAX"</a></li>
+            <li><a href="#section11">"CHUCK TAYLOR"</a></li>
+            <li><a href="#section12">"AIR MAX 90"</a></li>
+            <li><a href="#section13">"BASKET"</a></li>      
+        </ul>
+    </nav>
+    
+    <main>
+        <div id="section1">
+            <div class="group">
+                <h1>NIKE INC. c/o Virgil Abloh&#8482;<br>
+                "TEN ICONS RECONSTRUCTED"<br>
+                ONLINE STORE, GLOBAL<br>
+                &#169;2018</h1>
+            </div>
+        </div>
+        
+        <div id="section2">
+            <div class="group">
+                <h1>Virgil Abloh<br>
+                DESIGNER</h1>
+            
+                <img src="images/virgil%20abloh%201.jpg" alt="Virgil Abloh" height="300px" style="position: absolute; top: 70px; left: 80px">
+            
+                <img src="images/virgil%20abloh%202.jpg" alt="Virgil Abloh" height="310px" style="position: absolute; bottom: 20px; left: 500px">
+            
+                <img src="images/virgil%20abloh%203.jpg" alt="Virgil Abloh" height="250px" style="position: absolute; right: 150px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </div>
+        
+        <div id="section3">
+            <div class="group">
+                <h1>"ICON 1"<br>
+                OFF-WHITE x NIKE BLAZER</h1>
+            
+                <img src="images/blazer.png" alt="OFF-WHITE x NIKE BLAZER" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section4">
+            <div class="group">
+                <h1>"ICON 2"<br>
+                OFF-WHITE x NIKE AIR PRESTO</h1>
+            
+                <img src="images/presto.png" alt="OFF-WHITE x NIKE AIR PRESTO" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section5">
+            <div class="group">
+                <h1>"ICON 3"<br>
+                OFF-WHITE x NIKE AIR JORDAN 1</h1>
+            
+                <img src="images/jordan%201.png" alt="OFF-WHITE x NIKE AIR JORDAN 1" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section6">
+            <div class="group">
+                <h1>"ICON 4"<br>
+                OFF-WHITE x NIKE AIR FORCE 1 LOW</h1>
+            
+                <img src="images/af1.png" alt="OFF-WHITE x NIKE AIR FORCE 1 LOW" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section7">
+            <div class="group">
+                <h1>"ICON 5"<br>
+                OFF-WHITE x NIKE AIR MAX 97</h1>
+            
+                <img src="images/97.png" alt="OFF-WHITE x NIKE AIR MAX 97" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section8">
+            <div class="group">
+                <h1>"ICON 6"<br>
+                OFF-WHITE x NIKE REACT HYPERDUNK</h1>
+            
+                <img src="images/hyperdunk.png" alt="OFF-WHITE x NIKE REACT HYPERDUNK" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section9">
+            <div class="group">
+                <h1>"ICON 7"<br>
+                OFF-WHITE x NIKE ZOOM VAPORFLY</h1>
+            
+                <img src="images/vaporfly.png" alt="OFF-WHITE x NIKE ZOOM VAPORFLY" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section10">
+            <div class="group">
+                <h1>"ICON 8"<br>
+                OFF-WHITE x NIKE AIR VAPORMAX</h1>
+            
+                <img src="images/vapormax.png" alt="OFF-WHITE x NIKE AIR VAPORMAX" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section11">
+            <div class="group">
+                <h1>"ICON 9"<br>
+                OFF-WHITE x CONVERSE CHUCK TAYLOR ALL-STAR</h1>
+            
+                <img src="images/chuck%20taylor.png" alt="OFF-WHITE x CONVERSE CHUCK TAYLOR ALL-STAR" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section12">
+            <div class="group">
+                <h1>"ICON 10"<br>
+                OFF-WHITE x NIKE AIR MAX 90</h1>
+            
+                <img src="images/90.png" alt="OFF-WHITE x NIKE AIR MAX 90" height="500px" style="position: absolute; left: 50px; top: 300px">
+            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
+                <div class="sizebutton">SELECT SIZE ></div>
+            
+                <div class="basketbutton">ADD TO BASKET</div>
+                
+            </div>
+        </div>
+        
+        <div id="section13">
+            <div class="group">
+            <h1>"BASKET"</h1>
+                
+            
+            </div>
+        
+        </div>
+        
+    </main>
+    
+</body>
+</html>
